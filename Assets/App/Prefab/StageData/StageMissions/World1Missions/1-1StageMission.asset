@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd03104062d9ee46bcca52274220022, type: 3}
+  m_Name: 1-1StageMission
+  m_EditorClassIdentifier: Assembly-CSharp::StageTask
+  MainMissionPreset:
+    presetType: 0
+    killType: 1
+    GoalFlg: 0
+    KillCount: 0
+    CollectCount: 0
+    CollectObject: {fileID: 0}
+    KillObject: {fileID: 11400000, guid: 3c60362b233f90c4a845fd9a83b854ac, type: 2}
+  SubMissionPreset1:
+    presetType: 0
+    killType: 1
+    TimeCount: 120
+    ObjectCount: 2
+    PlayerActionCount: 5
+    PlayerHP: 0
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 11400000, guid: 3c60362b233f90c4a845fd9a83b854ac, type: 2}
+  SubMissionPreset2:
+    presetType: 0
+    killType: 0
+    TimeCount: 60
+    ObjectCount: 4
+    PlayerActionCount: 4
+    PlayerHP: 0
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 11400000, guid: 3c60362b233f90c4a845fd9a83b854ac, type: 2}
+  SubMissionPreset3:
+    presetType: 8
+    killType: 1
+    TimeCount: 0
+    ObjectCount: 10
+    PlayerActionCount: 10
+    PlayerHP: 10
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 11400000, guid: 3c60362b233f90c4a845fd9a83b854ac, type: 2}

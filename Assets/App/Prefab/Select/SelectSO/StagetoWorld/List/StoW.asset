@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc91cfb26ed6d246bb148bd0a1a06f5, type: 3}
+  m_Name: StoW
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationSequence
+  steps:
+  - targetName: MissionPreviewRoot
+    active: 1
+    startPosition: {x: 0, y: 0}
+    startScale: {x: 0, y: 0, z: 0}
+    startAlpha: 1
+    type: 0
+    data: {fileID: 11400000, guid: 5582d7aaafd6938458fce802807a7734, type: 2}
+    fadeAlpha: 1
+  - targetName: StageSelectRoot
+    active: 0
+    startPosition: {x: 0, y: 0}
+    startScale: {x: 0, y: 0, z: 0}
+    startAlpha: 1
+    type: 0
+    data: {fileID: 11400000, guid: 5377190ef0b37cf48b64b00d45f4d42e, type: 2}
+    fadeAlpha: 1
+  - targetName: BGRoot
+    active: 1
+    startPosition: {x: 0, y: 0}
+    startScale: {x: 0, y: 0, z: 0}
+    startAlpha: 0
+    type: 3
+    data: {fileID: 11400000, guid: fb7b749f1afdff847985718ef0c42eaa, type: 2}
+    fadeAlpha: 1
+  - targetName: WorldSelectRoot
+    active: 1
+    startPosition: {x: 0, y: 0}
+    startScale: {x: 0, y: 0, z: 0}
+    startAlpha: 1
+    type: 0
+    data: {fileID: 11400000, guid: 45c0b5f275d70ac47965ca361f8c131f, type: 2}
+    fadeAlpha: 1

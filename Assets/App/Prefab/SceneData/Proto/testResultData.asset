@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa69a316a05d3844bb7d39979be1d7d, type: 3}
+  m_Name: testResultData
+  m_EditorClassIdentifier: Assembly-CSharp::SceneData
+  sceneAsset: {fileID: 102900000, guid: c064d9b55a3c1ab4399636abea9fda35, type: 3}
+  sceneName: Result_Proto
+  ExitFade:
+    presetname: Default
+    fadetype: 0
+    duration: 1
+    fadecolor: {r: 0, g: 0, b: 0, a: 1}
+    columns: 12
+    rows: 8
+    edgewidth: 0.02
+    edgecolor: {r: 0, g: 0, b: 0, a: 1}
+    randomness: 0.15
+    randomSeed: 12345
+    tileOrderMode: 0
+    tileStartCorner: 0
+    randomBatchSize: 1
+  EnterFade:
+    presetname: Default
+    fadetype: 1
+    duration: 1
+    fadecolor: {r: 0, g: 0, b: 0, a: 1}
+    columns: 12
+    rows: 8
+    edgewidth: 0.02
+    edgecolor: {r: 0, g: 0, b: 0, a: 1}
+    randomness: 0.15
+    randomSeed: 12345
+    tileOrderMode: 0
+    tileStartCorner: 0
+    randomBatchSize: 1

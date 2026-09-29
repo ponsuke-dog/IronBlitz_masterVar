@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9ccdb4d6f6a1d458baa23d8aae2ebf, type: 3}
+  m_Name: 3-2Task
+  m_EditorClassIdentifier: Assembly-CSharp::StageData
+  stageID: 11
+  stageName: STAGE2
+  sceneData: {fileID: 11400000, guid: dbd6f7093bb49a24288ff4742c831cd3, type: 2}
+  stagePreview: {fileID: 11400000, guid: f9913b0476b8b164db2eb7f1c66addd3, type: 2}
+  NextStage: {fileID: 11400000, guid: c51f515b48856f741adb4289e1cfd144, type: 2}
+  StageMap: {fileID: 11400000, guid: deaf535808598924ab8143fc6c8ac55d, type: 2}
+  stageMission: {fileID: 11400000, guid: a4e2951d789606046a4d37bab044171c, type: 2}

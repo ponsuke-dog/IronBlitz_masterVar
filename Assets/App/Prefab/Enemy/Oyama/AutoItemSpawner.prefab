@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2422771340598362679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6784098617280440211}
+  - component: {fileID: 8516334792113070292}
+  m_Layer: 0
+  m_Name: AutoItemSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6784098617280440211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2422771340598362679}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -68.8, y: -8, z: -40.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8516334792113070292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2422771340598362679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f3412ad7e01da4c818f4f8820c723d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutoItemSpawner
+  spawnPrefabs:
+  - {fileID: 4225508844826446882, guid: d20982939750a724f89ea8e24db3787f, type: 3}
+  - {fileID: 6234804864991438528, guid: 2d63cd8d4ed33304d9382591b0b6d5b2, type: 3}
+  spawnPoint: {fileID: 0}
+  useSpawnPointRotation: 1
+  worldPositionOffset: {x: 0, y: 0, z: 0}
+  spawnIntervals:
+  - 5
+  - 10
+  - 15
+  - 20
+  - 20
+  - 40
+  - 80
+  - 100
+  - 150
+  - 200
+  - 300
+  avoidSameIntervalConsecutive: 0
+  resetTimerWhenCurrentItemDestroyed: 1
+  avoidSamePrefabConsecutive: 0
+  useUnscaledTime: 0
+  useTimeAgent: 1
+  searchTimeAgentInParent: 1
+  currentSpawnedObject: {fileID: 0}
+  enableDebugLog: 0
+  drawGizmos: 1
+  gizmoRadius: 10

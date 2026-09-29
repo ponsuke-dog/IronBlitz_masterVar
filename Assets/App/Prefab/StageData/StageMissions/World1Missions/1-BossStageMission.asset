@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd03104062d9ee46bcca52274220022, type: 3}
+  m_Name: 1-BossStageMission
+  m_EditorClassIdentifier: Assembly-CSharp::StageTask
+  MainMissionPreset:
+    presetType: 1
+    killType: 1
+    GoalFlg: 0
+    KillCount: 1
+    CollectCount: 0
+    CollectObject: {fileID: 0}
+    KillObject: {fileID: 11400000, guid: b86ff4631c7e3a743926ce0e72d3df59, type: 2}
+  SubMissionPreset1:
+    presetType: 0
+    killType: 0
+    TimeCount: 600
+    ObjectCount: 0
+    PlayerActionCount: 0
+    PlayerHP: 0
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 0}
+  SubMissionPreset2:
+    presetType: 0
+    killType: 0
+    TimeCount: 300
+    ObjectCount: 0
+    PlayerActionCount: 0
+    PlayerHP: 0
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 0}
+  SubMissionPreset3:
+    presetType: 9
+    killType: 0
+    TimeCount: 420
+    ObjectCount: 0
+    PlayerActionCount: 0
+    PlayerHP: 50
+    CollectObject: {fileID: 0}
+    EnemyObject: {fileID: 0}

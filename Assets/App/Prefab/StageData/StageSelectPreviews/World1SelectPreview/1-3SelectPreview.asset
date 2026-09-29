@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5afbc18d3ae4eb4fae5f1ad8ead37ce, type: 3}
+  m_Name: 1-3SelectPreview
+  m_EditorClassIdentifier: Assembly-CSharp::StagePreviewSet
+  previewSprites:
+  - {fileID: 21300000, guid: ff0571a008d18f74eaeb911de163638d, type: 3}
+  - {fileID: 21300000, guid: 06e0d5fa3b157a647b69dcf5911bc44d, type: 3}
+  - {fileID: 21300000, guid: dd7e9635d21efd043938ca520954addb, type: 3}

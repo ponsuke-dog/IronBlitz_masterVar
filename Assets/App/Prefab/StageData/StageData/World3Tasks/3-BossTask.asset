@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9ccdb4d6f6a1d458baa23d8aae2ebf, type: 3}
+  m_Name: 3-BossTask
+  m_EditorClassIdentifier: Assembly-CSharp::StageTask
+  stageID: 14
+  stageName: Boss
+  sceneData: {fileID: 11400000, guid: 346372d6ddcf57c4e9dee8a797bc7e11, type: 2}
+  stagePreview: {fileID: 11400000, guid: 75427edd7e89cf041b54e521221929ea, type: 2}
+  NextStage: {fileID: 11400000, guid: 574c70d3dcf1cf34086d2ca402513f0e, type: 2}
+  StageMap: {fileID: 11400000, guid: deaf535808598924ab8143fc6c8ac55d, type: 2}
+  stageMission: {fileID: 11400000, guid: d0f0b005b8dffbd49b04ae0bae550892, type: 2}

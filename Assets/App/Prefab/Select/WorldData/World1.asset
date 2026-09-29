@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0171840aa5dd5db4db0966c6eff4d469, type: 3}
+  m_Name: World1
+  m_EditorClassIdentifier: Assembly-CSharp::WorldData
+  worldName: World1
+  stages:
+  - {fileID: 11400000, guid: c807da1c53d9cbd458b37f017fe74f71, type: 2}
+  - {fileID: 11400000, guid: 525d9dfc79c438c42809cbd2df998a07, type: 2}
+  - {fileID: 11400000, guid: 9b8930cda28afdc45937d07bb022c345, type: 2}
+  - {fileID: 11400000, guid: 7dab2f0cfdca30741b4b94d3017ea37d, type: 2}
+  - {fileID: 11400000, guid: 222346b8a82afc547bbfba0000d68ed7, type: 2}
+  WorldImage: {fileID: 21300000, guid: 1b3bf3628066ca046aaba4633a9894ae, type: 3}
+  WorldID: 0
