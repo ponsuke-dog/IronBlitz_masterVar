@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_WallNonLight
-  m_Shader: {fileID: 4800000, guid: 55e1525f07f04f34d8755c201ae03f75, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1d3db7c7434455143be1b5791f2432fa, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -98,7 +98,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddLightDiffuse: 1
     - _AddPrecomputedVelocity: 0
+    - _Alpha: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Angle: -43
@@ -134,6 +136,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightAngleInfluence: 1
+    - _LightDotScale: 1
     - _Metallic: 0
     - _MetalnessScale: 0
     - _NormalShading: 0
@@ -146,16 +150,25 @@ Material:
     - _RimSmoothness: 0.2
     - _RimThreshold: 0.13
     - _RoughnessScale: 1
+    - _ScreenDotSize: 8
+    - _ScreenSpaceDots: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SpecGloss: 40
+    - _SpecSoftness: 0.02
+    - _SpecStrength: 1
+    - _SpecThreshold: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _TriplanarSharpness: 4
     - _UseCameraDirection: 0
     - _UseManualTileScale: 1
     - _ViewDotInfluence: 0.4
     - _WorkflowMode: 1
+    - _WorldTexScale: 1
+    - _WorldTriplanar: 0
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:

@@ -24,15 +24,18 @@ Material:
   m_Shader: {fileID: 4800000, guid: aeb027bed64231c489d94d0b4e961d80, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _WORLD_TRIPLANAR
   m_InvalidKeywords:
   - _INNER_OUTLINE
   - _OUTER_OUTLINE
+  - _SCALEAWAREUV_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -68,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c883ebb4450544040a3581918cab464e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8cc6dd8a3390fe443baebc8c57b74bae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -117,10 +120,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddLightDiffuse: 1
     - _AddPrecomputedVelocity: 0
+    - _Alpha: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Angle: -43
+    - _Angle: -45
+    - _AutoTileBaseScaleX: 10
+    - _AutoTileBaseScaleY: 10
+    - _AutoTileBaseScaleZ: 10
     - _BgAlpha: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -139,16 +147,16 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DotAlpha: 1
-    - _DotFreq: 50
+    - _DotFreq: 28.4
     - _DotMax: 0.01
     - _DotMin: 5
     - _DotScale: 1
     - _DotSize: 1
-    - _DotSmoothness: 0.49
-    - _DotThreshold: -0.8
+    - _DotSmoothness: 0.5
+    - _DotThreshold: -1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EmissionIntensity: 4
+    - _EmissionIntensity: 0
     - _EmissionMaskScrollX: 0.3
     - _EmissionMaskScrollY: 0.2
     - _EnvironmentReflections: 1
@@ -157,6 +165,8 @@ Material:
     - _GlossyReflections: 0
     - _InnerOutlineEnabled: 1
     - _InnerOutlineWidth: 0.02
+    - _LightAngleInfluence: 1
+    - _LightDotScale: 1
     - _Metallic: 0
     - _MetalnessScale: 1
     - _NormalEdgeSensitivity: 2
@@ -174,23 +184,34 @@ Material:
     - _RimIntensity: 1.5
     - _RimPower: 4
     - _RimSmoothness: 0.5
-    - _RimThreshold: 0.13
+    - _RimThreshold: 0.4
     - _RoughnessScale: 1
+    - _ScaleAwareUV: 1
+    - _ScreenDotSize: 8
+    - _ScreenSpaceDots: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SpecGloss: 40
+    - _SpecSoftness: 0.02
+    - _SpecStrength: 1
+    - _SpecThreshold: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _TriplanarSharpness: 4
+    - _UVWorldScale: 1
     - _UseCameraDirection: 0
-    - _ViewDotInfluence: 0.4
+    - _ViewDotInfluence: 0.5
     - _WorkflowMode: 1
+    - _WorldTexScale: 1
+    - _WorldTriplanar: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BgColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.33962253, g: 0.33962253, b: 0.33962253, a: 1}
+    - _Color: {r: 0.30588236, g: 0.41176474, b: 0.5529412, a: 1}
     - _DotColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0.7301256, b: 8.47419, a: 1}
     - _InkColor: {r: 0, g: 0, b: 0, a: 1}

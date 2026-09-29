@@ -25,6 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHA_TRANSITION_BLEND_SECOND_TEX_MULTIPLY
   - _ALPHA_TRANSITION_MAP_MODE_2D
   - _BASE_MAP_MODE_2D
   - _DISSOLVE_TRANSITION_ENABLED
@@ -32,6 +33,8 @@ Material:
   - _EMISSION_COLOR_BASECOLOR
   - _EMISSION_MAP_MODE_2D
   - _PARALLAX_MAP_MODE_2D
+  - _SOFT_PARTICLES_ENABLED
+  - _TINT_AREA_ALL
   - _TINT_COLOR_ENABLED
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -60,8 +63,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AlphaTransitionMapSecondTexture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 3bc83d59e484d8148bbb07b1cd10c894, type: 3}
+        m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _AlphaTransitionMapSecondTexture2DArray:
         m_Texture: {fileID: 0}
@@ -202,7 +205,7 @@ Material:
     - _AlphaTransitionMapSecondTextureProgressCoord: 0
     - _AlphaTransitionMapSecondTextureRandomRowCoord: 0
     - _AlphaTransitionMapSecondTextureRandomRowSelectionEnabled: 0
-    - _AlphaTransitionMapSecondTextureRotation: 0.5
+    - _AlphaTransitionMapSecondTextureRotation: 0
     - _AlphaTransitionMapSecondTextureRotationCoord: 0
     - _AlphaTransitionMapSecondTextureRowCount: 1
     - _AlphaTransitionMapSecondTextureSliceCount: 4
@@ -211,8 +214,8 @@ Material:
     - _AlphaTransitionProgress: 0.5
     - _AlphaTransitionProgressCoord: 0
     - _AlphaTransitionProgressCoordSecondTexture: 0
-    - _AlphaTransitionProgressSecondTexture: 0.56
-    - _AlphaTransitionSecondTextureBlendMode: 0
+    - _AlphaTransitionProgressSecondTexture: 0.5
+    - _AlphaTransitionSecondTextureBlendMode: 2
     - _BaseMapChannel: 0
     - _BaseMapMirrorSampling: 0
     - _BaseMapMode: 0
@@ -255,12 +258,12 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DissolveSharpness: 0
-    - _DissolveSharpnessSecondTexture: 0.392
+    - _DissolveSharpnessSecondTexture: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionAreaType: 1
     - _EmissionColorType: 1
-    - _EmissionIntensity: 20
+    - _EmissionIntensity: 10
     - _EmissionIntensityCoord: 0
     - _EmissionMapChannelsX: 0
     - _EmissionMapMode: 0
@@ -329,13 +332,13 @@ Material:
     - _ShadowCasterEnabled: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
+    - _SoftParticlesEnabled: 1
     - _SoftParticlesIntensity: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _TintAreaMode: 0
+    - _TintAreaMode: 1
     - _TintBlendRate: 1
     - _TintBlendRateCoord: 0
     - _TintColorMode: 0
@@ -384,7 +387,7 @@ Material:
     - _EmissionMapRotationOffsets: {r: 0, g: 0, b: 0, a: 0}
     - _FlowMapRotationOffsets: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TintColor: {r: 1.3844092, g: 10.074962, b: 88.140884, a: 1}
+    - _TintColor: {r: 3.1245282, g: 0.941292, b: 0.06484863, a: 1}
     - _TintMapRotationOffsets: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -23,15 +23,16 @@ Material:
   m_Name: M_HoneycombBlock
   m_Shader: {fileID: 4800000, guid: aeb027bed64231c489d94d0b4e961d80, type: 3}
   m_Parent: {fileID: 2100000, guid: 2b075e7252be74d47bd0ef66a049f94a, type: 2}
-  m_ModifiedSerializedProperties: 4
+  m_ModifiedSerializedProperties: 20
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _INNER_OUTLINE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -64,6 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Alpha: 1
     - _Angle: -43
     - _DotFreq: 50
     - _DotMax: 0.01

@@ -3,7 +3,22 @@ guid: dacd48b2abac21e4a93f509c6781a3b7
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FacePanel02
+    second: {fileID: 2100000, guid: 83516813e9272424698b8932bb508bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TestBody
+    second: {fileID: 2100000, guid: 0f227917b731ac1429ef27e85537a86c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 51ab010beaf52c04e8c7887c770bbd7c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_EnemyBone
-  m_Shader: {fileID: 4800000, guid: 19661357efe47b34eb8fcd963e17434d, type: 3}
+  m_Shader: {fileID: 4800000, guid: aeb027bed64231c489d94d0b4e961d80, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -176,15 +176,24 @@ Material:
     - _RimSmoothness: 0.5
     - _RimThreshold: 0.35
     - _RoughnessScale: 1
+    - _ScaleAwareUV: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SpecGloss: 40
+    - _SpecSoftness: 0.02
+    - _SpecStrength: 1
+    - _SpecThreshold: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _TriplanarSharpness: 4
+    - _UVWorldScale: 1
     - _UseCameraDirection: 0
     - _ViewDotInfluence: 0.4
     - _WorkflowMode: 1
+    - _WorldTexScale: 1
+    - _WorldTriplanar: 0
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
