@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8e883dc8c2d044887431e067ac98f, type: 3}
+  m_Name: audio_clip_volume_database
+  m_EditorClassIdentifier: Assembly-CSharp::AudioClipVolumeDatabase
+  defaultVolumeScale: 1
+  entries:
+  - audioClip: {fileID: 8300000, guid: 2de9531bba66f384b9b6cf10cb4d61de, type: 3}
+    volumeScale: 1
+    memo: "\u30B2\u30FC\u30E0\u306EBGM"
+  - audioClip: {fileID: 8300000, guid: 2afdb162e78d4a342b55b3e6f38515b6, type: 3}
+    volumeScale: 1
+    memo: "\u6B69\u304D"
+  - audioClip: {fileID: 8300000, guid: 9cac6738000164d4e811ba7089e3f0d4, type: 3}
+    volumeScale: 0.01
+    memo: "\u30B8\u30E3\u30F3\u30D7"
+  - audioClip: {fileID: 8300000, guid: fc7fcafe1e219174089c37a7724a75bb, type: 3}
+    volumeScale: 1
+    memo: "\u30BF\u30C3\u30AF\u30EB"
+  - audioClip: {fileID: 8300000, guid: ee4695796f537a14bb01c8f6e11797c0, type: 3}
+    volumeScale: 1
+    memo: "\u30BF\u30C3\u30AF\u30EB\u30D2\u30C3\u30C8"
+  - audioClip: {fileID: 8300000, guid: d48e4f8151200504a96f2ebbf8ff0e9c, type: 3}
+    volumeScale: 1
+    memo: "\u30C1\u30E3\u30FC\u30B8\u5B8C\u4E86"
+  - audioClip: {fileID: 8300000, guid: d963b656e4275734b9b6d455f07596be, type: 3}
+    volumeScale: 1
+    memo: "\u30C1\u30E3\u30FC\u30B8\u30BF\u30C3\u30AF\u30EB"
+  - audioClip: {fileID: 8300000, guid: 23ce6041c3e98e74e90d31bd53125965, type: 3}
+    volumeScale: 0.18
+    memo: "\u88AB\u30C0\u30E1\u30FC\u30B8"
+  - audioClip: {fileID: 8300000, guid: 7e1405c9eae85374b9533a7eca9387b3, type: 3}
+    volumeScale: 0.1
+    memo: "\u30B8\u30E3\u30F3\u30D7"
+  - audioClip: {fileID: 8300000, guid: edaabde21edafc84f815a0aa4254d515, type: 3}
+    volumeScale: 1
+    memo: "\u30DC\u30B9\u306E\u30C8\u30E9\u30A4\u653B\u6483"
+  - audioClip: {fileID: 8300000, guid: 4c7bea42f55b6dc4486a1656ef0aeea3, type: 3}
+    volumeScale: 0.2
+    memo: RB_TryCharge
+  - audioClip: {fileID: 8300000, guid: edd956fa42228e748afd1a977b1ff692, type: 3}
+    volumeScale: 0.005
+    memo: ArcherBoss_BGM
+  - audioClip: {fileID: 8300000, guid: b45d2f216fb09fd46b0c54166b95f3fd, type: 3}
+    volumeScale: 0.2
+    memo: "\u6C7A\u5B9ASE"
+  - audioClip: {fileID: 8300000, guid: a05a59d7faa2aa047a332c8df99110b7, type: 3}
+    volumeScale: 0.2
+    memo: "\u30AD\u30E3\u30F3\u30BB\u30EBSE"
+  - audioClip: {fileID: 8300000, guid: aebc5f983a79d6040b9b025b1560d7e3, type: 3}
+    volumeScale: 0.3
+    memo: PressAnyButton
+  - audioClip: {fileID: 8300000, guid: a2da6e8840da07841b1645fa3391ab95, type: 3}
+    volumeScale: 0.2
+    memo: Select
+  - audioClip: {fileID: 8300000, guid: f0dcb8ee840f5b040aa22556e0c9aff8, type: 3}
+    volumeScale: 0.3
+    memo: Slider
+  - audioClip: {fileID: 8300000, guid: 4f04f8e117b264a498c0740a9a970a71, type: 3}
+    volumeScale: 0.3
+    memo: "\u30AB\u30C6\u30B4\u30EA\u5207\u308A\u66FF\u3048"
+  - audioClip: {fileID: 8300000, guid: 7efe997b9d6052543b6818d704644fdb, type: 3}
+    volumeScale: 0.3
+    memo: "\u30B2\u30FC\u30E0\u30B9\u30BF\u30FC\u30C8"
+  - audioClip: {fileID: 8300000, guid: 85b332a7e0658604d9d570e6322934cd, type: 3}
+    volumeScale: 0.3
+    memo: "\u30C8\u30B0\u30EB"
+  - audioClip: {fileID: 8300000, guid: dc1c397b8f7d21c44aa9e30624fdfe6e, type: 3}
+    volumeScale: 0.3
+    memo: "\u6575\u306E\u653B\u6483"
+  - audioClip: {fileID: 8300000, guid: ad1b96d2e4a82b542b4db77741b849d5, type: 3}
+    volumeScale: 0.3
+    memo: "\u6575\u306E\u653B\u6483"
+  - audioClip: {fileID: 8300000, guid: a6bd1100940adac4f97a58f98cdeaee4, type: 3}
+    volumeScale: 0.3
+    memo: "\u6575\u306E\u30C1\u30E3\u30FC\u30B8"
+  - audioClip: {fileID: 8300000, guid: 0eedb4d15d870db4f9ebb84b27cc8926, type: 3}
+    volumeScale: 0.2
+    memo: "\u5C04\u6483"
+  - audioClip: {fileID: 8300000, guid: 855d97c161efedb4998bb3be45a8303d, type: 3}
+    volumeScale: 0.1
+    memo: "\u6575\u306E\u58C1\u53CD\u5C04"
+  - audioClip: {fileID: 8300000, guid: 4467ba2d4a796fc4e94d95a4759398c9, type: 3}
+    volumeScale: 0.1
+    memo: "\u6575\u306E\u7206\u767A"
+  - audioClip: {fileID: 8300000, guid: ee3a96d142eed5e40b4db47a4c8caf43, type: 3}
+    volumeScale: 0.1
+    memo: "\u6575\u306E\u6483\u7834\u6642\u7206\u767A"
+  - audioClip: {fileID: 8300000, guid: e31a74740313ec6449c7277f75cb519e, type: 3}
+    volumeScale: 0.07
+    memo: "\u5F13\u767A\u5C04"
+  - audioClip: {fileID: 8300000, guid: d3010374a2d26b7458a9f51343497ee1, type: 3}
+    volumeScale: 0.1
+    memo: "\u5F13\u30DC\u30B9\u306E\u30B8\u30E3\u30F3\u30D7"
+  - audioClip: {fileID: 8300000, guid: edd956fa42228e748afd1a977b1ff692, type: 3}
+    volumeScale: 1
+    memo: "\u5F13\u30DC\u30B9BGM"
+  - audioClip: {fileID: 8300000, guid: cf66f169aa17c324c8e49f764c429e1a, type: 3}
+    volumeScale: 0.05
+    memo: "\u6012\u308A"
+  - audioClip: {fileID: 8300000, guid: 4ad9db2b3cc024145ad7f5029615c90a, type: 3}
+    volumeScale: 0.3
+    memo: "\u30AD\u30C3\u30AF"
+  - audioClip: {fileID: 8300000, guid: 298491c3d84608744858ff1ae70dac97, type: 3}
+    volumeScale: 0.013
+    memo: "\u7403\u7740\u5F3E"
+  - audioClip: {fileID: 8300000, guid: a8219a2f6b9abdf46928d58dfa6e584a, type: 3}
+    volumeScale: 0.3
+    memo: "\u30C9\u30E9\u30E0"
+  - audioClip: {fileID: 8300000, guid: 01a76f3fcffa33847a4d3041ce463d77, type: 3}
+    volumeScale: 0.2
+    memo: "\u30CF\u30AB"
+  - audioClip: {fileID: 8300000, guid: 058d653c1d8e3904482003aab8c5a032, type: 3}
+    volumeScale: 0.4
+    memo: "\u30B9\u30A4\u30F3\u30B0"
+  - audioClip: {fileID: 8300000, guid: 075411e33a33cc04fad2af519496b8a1, type: 3}
+    volumeScale: 0.4
+    memo: "\u30B8\u30E3\u30B9\u30C8\u30BF\u30C3\u30AF\u30EB"
+  - audioClip: {fileID: 8300000, guid: 006adc64b23697843b043393819a1cbd, type: 3}
+    volumeScale: 0.4
+    memo: "\u30B8\u30E3\u30B9\u30C8\u30BF\u30C3\u30AF\u30EB"
+  - audioClip: {fileID: 8300000, guid: 8353c9e5d1921d048be366da979548de, type: 3}
+    volumeScale: 0.25
+    memo: "\u7206\u767A"
+  - audioClip: {fileID: 8300000, guid: 38a7bfa4dc4b4c240945eefd82740b94, type: 3}
+    volumeScale: 0.3
+    memo: "\u30C0\u30A6\u30F3"
+  - audioClip: {fileID: 8300000, guid: dbb31df06b61a3e4d99aa6c75bc975a5, type: 3}
+    volumeScale: 0.5
+    memo: "\u30C1\u30E3\u30FC\u30B8"
+  - audioClip: {fileID: 8300000, guid: 78d19fb33db6486448d7e7629683d1a2, type: 3}
+    volumeScale: 0.2
+    memo: "\u30C1\u30E3\u30FC\u30B8max"
+  - audioClip: {fileID: 8300000, guid: db316a30206ac944da2d74ba4b9480ec, type: 3}
+    volumeScale: 0.5
+    memo: "\u6483\u7834"
+  - audioClip: {fileID: 8300000, guid: a4a25cc4ed7a7184b8ed29b31bca5c7f, type: 3}
+    volumeScale: 0.5
+    memo: "\u30D3\u30FC\u30E0"
+  - audioClip: {fileID: 8300000, guid: ceeae0c625fcfa744ad55d530aee4378, type: 3}
+    volumeScale: 0.5
+    memo: "\u30D3\u30FC\u30E0\u30C1\u30E3\u30FC\u30B8"
+  - audioClip: {fileID: 8300000, guid: e33c64c45be906549b88cada71519864, type: 3}
+    volumeScale: 0.2
+    memo: "\u7206\u767A"
+  - audioClip: {fileID: 8300000, guid: 58b63f572f3da0a42afe5ca7fdcdd14b, type: 3}
+    volumeScale: 0.01
+    memo: SoccerBoss_BGM
+  - audioClip: {fileID: 8300000, guid: d4375a68339c4634aa1d4b1913160bc1, type: 3}
+    volumeScale: 0.2
+    memo: SB_Charge
+  - audioClip: {fileID: 8300000, guid: 950a269d746e83944ae51e1b6b116044, type: 3}
+    volumeScale: 0.07
+    memo: SB_MiniExplosion
+  - audioClip: {fileID: 8300000, guid: 6944232339f3f144c8b6c3b7179e5122, type: 3}
+    volumeScale: 0.5
+    memo: SB_Hit
+  - audioClip: {fileID: 8300000, guid: 7f719e888544a7c40b35b88875db5ec2, type: 3}
+    volumeScale: 0.25
+    memo: SB_Sliding

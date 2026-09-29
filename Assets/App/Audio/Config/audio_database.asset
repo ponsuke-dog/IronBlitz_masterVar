@@ -186,7 +186,7 @@ MonoBehaviour:
     maxDistance: 500
   - audioId: PL_Jump
     category: 1
-    clip: {fileID: 8300000, guid: 9cac6738000164d4e811ba7089e3f0d4, type: 3}
+    clip: {fileID: 8300000, guid: 7e1405c9eae85374b9533a7eca9387b3, type: 3}
     loop: 0
     outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
     use3DSound: 0
@@ -231,7 +231,7 @@ MonoBehaviour:
     maxDistance: 500
   - audioId: PL_ReceiveDamage
     category: 1
-    clip: {fileID: 8300000, guid: 02b34a7a3a879b44cbd4bd920d9ffbdf, type: 3}
+    clip: {fileID: 8300000, guid: 23ce6041c3e98e74e90d31bd53125965, type: 3}
     loop: 0
     outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
     use3DSound: 0
@@ -259,6 +259,438 @@ MonoBehaviour:
   - audioId: LoopBGM
     category: 0
     clip: {fileID: 8300000, guid: c188fcae6630045409f573adbee9fd4d, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: -5473593950560144156, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: FO_Explosion
+    category: 1
+    clip: {fileID: 8300000, guid: 6944232339f3f144c8b6c3b7179e5122, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 100
+  - audioId: E_Explosion
+    category: 1
+    clip: {fileID: 8300000, guid: 4467ba2d4a796fc4e94d95a4759398c9, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 100
+  - audioId: E_WallHit
+    category: 1
+    clip: {fileID: 8300000, guid: 855d97c161efedb4998bb3be45a8303d, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 100
+  - audioId: SB_KickCharge
+    category: 1
+    clip: {fileID: 8300000, guid: d4375a68339c4634aa1d4b1913160bc1, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_Kick
+    category: 1
+    clip: {fileID: 8300000, guid: 4ad9db2b3cc024145ad7f5029615c90a, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_SlidingCharge
+    category: 1
+    clip: {fileID: 8300000, guid: 0de98426cb886ba4f80b097d1effa304, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_Sliding
+    category: 1
+    clip: {fileID: 8300000, guid: 7f719e888544a7c40b35b88875db5ec2, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_Explosion
+    category: 1
+    clip: {fileID: 8300000, guid: e33c64c45be906549b88cada71519864, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_BallLand
+    category: 1
+    clip: {fileID: 8300000, guid: 4467ba2d4a796fc4e94d95a4759398c9, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: SB_Angry
+    category: 1
+    clip: {fileID: 8300000, guid: cf66f169aa17c324c8e49f764c429e1a, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 200
+  - audioId: RB_Try
+    category: 1
+    clip: {fileID: 8300000, guid: edaabde21edafc84f815a0aa4254d515, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_TryCharge
+    category: 1
+    clip: {fileID: 8300000, guid: 4c7bea42f55b6dc4486a1656ef0aeea3, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 1
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: BGM_ArcherBoss
+    category: 0
+    clip: {fileID: 8300000, guid: edd956fa42228e748afd1a977b1ff692, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: -5473593950560144156, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Enter
+    category: 2
+    clip: {fileID: 8300000, guid: b45d2f216fb09fd46b0c54166b95f3fd, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Back
+    category: 2
+    clip: {fileID: 8300000, guid: a05a59d7faa2aa047a332c8df99110b7, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Slider
+    category: 2
+    clip: {fileID: 8300000, guid: f0dcb8ee840f5b040aa22556e0c9aff8, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_SwitchPage
+    category: 2
+    clip: {fileID: 8300000, guid: 0db5c9ba89b3ffd4096c62980cd2887a, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Select
+    category: 2
+    clip: {fileID: 8300000, guid: a2da6e8840da07841b1645fa3391ab95, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_CategorySelect
+    category: 2
+    clip: {fileID: 8300000, guid: 4f04f8e117b264a498c0740a9a970a71, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_PressAny
+    category: 2
+    clip: {fileID: 8300000, guid: aebc5f983a79d6040b9b025b1560d7e3, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Start
+    category: 2
+    clip: {fileID: 8300000, guid: 7efe997b9d6052543b6818d704644fdb, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_window
+    category: 2
+    clip: {fileID: 8300000, guid: 88ad140c11fd41e4787acfdef7a11f38, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: UI_Toggle
+    category: 2
+    clip: {fileID: 8300000, guid: 85b332a7e0658604d9d570e6322934cd, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: AB_ArrowShot
+    category: 1
+    clip: {fileID: 8300000, guid: e31a74740313ec6449c7277f75cb519e, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: AB_Jump
+    category: 1
+    clip: {fileID: 8300000, guid: d3010374a2d26b7458a9f51343497ee1, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: SB_Stunned
+    category: 1
+    clip: {fileID: 8300000, guid: e038cda10ef13ef43ab4d7c3feaecbd0, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: BE_Explosion
+    category: 1
+    clip: {fileID: 8300000, guid: a1c54546a213b674c842743c57bf5b75, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: SE_Shot
+    category: 1
+    clip: {fileID: 8300000, guid: 0eedb4d15d870db4f9ebb84b27cc8926, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: -2680040109979390080, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: PE_Punch
+    category: 1
+    clip: {fileID: 8300000, guid: dc1c397b8f7d21c44aa9e30624fdfe6e, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: ME_Attack
+    category: 1
+    clip: {fileID: 8300000, guid: ad1b96d2e4a82b542b4db77741b849d5, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: ME_Charge
+    category: 1
+    clip: {fileID: 8300000, guid: a6bd1100940adac4f97a58f98cdeaee4, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_BGM
+    category: 0
+    clip: {fileID: 8300000, guid: 298491c3d84608744858ff1ae70dac97, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: -5473593950560144156, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Beam
+    category: 1
+    clip: {fileID: 8300000, guid: a4a25cc4ed7a7184b8ed29b31bca5c7f, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_BeamCharge
+    category: 1
+    clip: {fileID: 8300000, guid: ceeae0c625fcfa744ad55d530aee4378, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Drum
+    category: 1
+    clip: {fileID: 8300000, guid: a8219a2f6b9abdf46928d58dfa6e584a, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Swing
+    category: 1
+    clip: {fileID: 8300000, guid: 058d653c1d8e3904482003aab8c5a032, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Haka
+    category: 1
+    clip: {fileID: 8300000, guid: 01a76f3fcffa33847a4d3041ce463d77, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Quin
+    category: 1
+    clip: {fileID: 8300000, guid: 78d19fb33db6486448d7e7629683d1a2, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_RPCharge
+    category: 1
+    clip: {fileID: 8300000, guid: dbb31df06b61a3e4d99aa6c75bc975a5, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: PL_JustHit
+    category: 1
+    clip: {fileID: 8300000, guid: 075411e33a33cc04fad2af519496b8a1, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: PL_JustHit_B
+    category: 1
+    clip: {fileID: 8300000, guid: 006adc64b23697843b043393819a1cbd, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Angry_A
+    category: 1
+    clip: {fileID: 8300000, guid: 61e8950a29836544aaecc7d45a115472, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Angry_B
+    category: 1
+    clip: {fileID: 8300000, guid: 59376fef653631c48bede9e8ed90accd, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_RPExplosion
+    category: 1
+    clip: {fileID: 8300000, guid: 8353c9e5d1921d048be366da979548de, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Down
+    category: 1
+    clip: {fileID: 8300000, guid: 38a7bfa4dc4b4c240945eefd82740b94, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: RB_Death
+    category: 1
+    clip: {fileID: 8300000, guid: db316a30206ac944da2d74ba4b9480ec, type: 3}
+    loop: 0
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: SB_MiniExplosion
+    category: 1
+    clip: {fileID: 8300000, guid: 950a269d746e83944ae51e1b6b116044, type: 3}
+    loop: 1
+    outputMixerGroup: {fileID: 438633822258196785, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
+    use3DSound: 0
+    spatialBlend: 0
+    minDistance: 1
+    maxDistance: 500
+  - audioId: SB_BGM
+    category: 0
+    clip: {fileID: 8300000, guid: 58b63f572f3da0a42afe5ca7fdcdd14b, type: 3}
     loop: 1
     outputMixerGroup: {fileID: -5473593950560144156, guid: 5c7b489b2abda0b4a9fbe1929fef8bc8, type: 2}
     use3DSound: 0
