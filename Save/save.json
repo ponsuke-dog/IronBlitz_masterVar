@@ -1,0 +1,124 @@
+{
+    "stages": [
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 22.7342529296875
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 31.862960815429689
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 31.7369384765625
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": false,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 71.33895111083985
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 66.1756591796875
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": false,
+            "isUnlock": true,
+            "ClearBestTime": 33.40705871582031
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": false,
+            "isUnlock": true,
+            "ClearBestTime": 28.877288818359376
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": false,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 85.55254364013672
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": false,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 76.87837219238281
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 10.5589599609375
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 48.4415283203125
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": true,
+            "ClearBestTime": 68.31612396240235
+        },
+        {
+            "isMainClear": false,
+            "SubMission1": false,
+            "SubMission2": false,
+            "SubMission3": false,
+            "isUnlock": true,
+            "ClearBestTime": 0.0
+        },
+        {
+            "isMainClear": false,
+            "SubMission1": false,
+            "SubMission2": false,
+            "SubMission3": false,
+            "isUnlock": false,
+            "ClearBestTime": 0.0
+        },
+        {
+            "isMainClear": true,
+            "SubMission1": true,
+            "SubMission2": true,
+            "SubMission3": true,
+            "isUnlock": false,
+            "ClearBestTime": 180.75933837890626
+        }
+    ]
+}
